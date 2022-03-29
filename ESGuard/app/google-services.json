@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "121606456572",
+    "firebase_url": "https://esguard-11076-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "esguard-11076",
+    "storage_bucket": "esguard-11076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121606456572:android:99087b8a59f67b9f900379",
+        "android_client_info": {
+          "package_name": "com.vladv.dbpopulate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121606456572-b9dqhtea1s8cs2mr4p4crnt5ag5mfjc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4gbyNwo3BloXgGy3KvoSvdSynrjvKBU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121606456572-b9dqhtea1s8cs2mr4p4crnt5ag5mfjc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121606456572:android:2ce2541a5089010b900379",
+        "android_client_info": {
+          "package_name": "com.vladv.esguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121606456572-b9dqhtea1s8cs2mr4p4crnt5ag5mfjc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4gbyNwo3BloXgGy3KvoSvdSynrjvKBU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121606456572-b9dqhtea1s8cs2mr4p4crnt5ag5mfjc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

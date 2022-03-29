@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DBPopulate</string>
+    <string-array name="categories">
+        <item>ENVIRONMENT</item>
+        <item>GOVERNANCE</item>
+        <item>SOCIAL</item>
+    </string-array>
+
+    <string-array name="sectors">
+        <item>TECH</item>
+        <item>FINANCIAL</item>
+        <item>TELECOMM</item>
+        <item>INDUSTRIAL</item>
+        <item>HEALTH</item>
+        <item>ENERGY</item>
+        <item>COMMERCE</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>E</item>
+
+        <item>Climate change</item>
+        <item>Pollution</item>
+        <item>Water management</item>
+        <item>Circular economy</item>
+
+        <item>S</item>
+
+        <item>Consumer protection</item>
+        <item>Data security</item>
+        <item>Working conditions</item>
+        <item>Diveristy and integration</item>
+        <item>Human rights (child labour)</item>
+
+        <item>G</item>
+
+        <item>Risk management</item>
+        <item>Corporate ethics</item>
+        <item>Accounting and Taxes</item>
+        <item>CEO characteristics</item>
+        <item>Compensation/salary</item>
+        <item>Board diversity</item>
+    </string-array>
+</resources>

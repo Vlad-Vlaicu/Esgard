@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selection_menu"
+    tools:context=".activities.SelectionActivity">
+
+
+    <TextView
+        android:id="@+id/homeButton_selectionActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:padding="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/industriesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Industries"
+        android:textColor="#721913"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/commerceTextView_selectionActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:padding="20dp"
+        android:text="Commerce"
+        android:textColor="#721913"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/industriesTextView" />
+
+    <TextView
+        android:id="@+id/energyTextView_selectionActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:padding="20dp"
+        android:text="Energy"
+        android:textColor="#721913"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/commerceTextView_selectionActivity"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="@+id/commerceTextView_selectionActivity"
+        app:layout_constraintTop_toBottomOf="@+id/commerceTextView_selectionActivity" />
+
+    <TextView
+        android:id="@+id/telecommtextView_selectionActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:padding="20dp"
+        android:text="Telecomm"
+        android:textColor="#721913"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/energyTextView_selectionActivity"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="@+id/energyTextView_selectionActivity"
+        app:layout_constraintTop_toBottomOf="@+id/energyTextView_selectionActivity" />
+
+    <TextView
+        android:id="@+id/itTextView_selectionActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:padding="20dp"
+        android:text="IT &amp; C"
+        android:textColor="#721913"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/telecommtextView_selectionActivity"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/telecommtextView_selectionActivity"
+        app:layout_constraintTop_toBottomOf="@+id/telecommtextView_selectionActivity" />
+
+    <TextView
+        android:id="@+id/healthTextView_selectionActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:padding="20dp"
+        android:text="Healthcare"
+        android:textColor="#721913"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/itTextView_selectionActivity"
+        app:layout_constraintStart_toStartOf="@+id/itTextView_selectionActivity"
+        app:layout_constraintTop_toBottomOf="@+id/itTextView_selectionActivity" />
+</androidx.constraintlayout.widget.ConstraintLayout>
